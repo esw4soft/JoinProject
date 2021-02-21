@@ -1,0 +1,108 @@
+@import '../default.scss';
+
+//EventAlbum
+.album-page {
+  max-width: calc(100% - 240px);
+  margin: 0px auto;
+  min-height: 100vh;
+  .go-back {
+    margin: 28px 0px 42px 0px;
+    font-size: 16px;
+  }
+  .title {
+    h6 {
+      margin-bottom: 8px;
+    }
+    .upload-button {
+      background: $primary;
+      padding: 8px 16px;
+      border: 1px transparent;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 1.92px;
+      margin: 18px 8px;
+
+      &:hover {
+        color: white;
+        background: #4f7f9a;
+      }
+    }
+  }
+  .album-slider {
+    margin: 50px auto;
+    // background: slategray;
+    .arrow {
+      transition: 0.5s;
+      padding: 0px;
+      cursor: pointer;
+      &:hover {
+        background: rgba(112, 112, 112, 0.1);
+      }
+    }
+    .album-content {
+      width: 100%;
+      flex-wrap: wrap;
+      .photo-card {
+        cursor: pointer;
+        margin-bottom: 20px;
+        figure {
+          height: 36vh;
+          background: gray;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal-body {
+  // margin: 12px 9px 12px 9px;
+
+  .photo-content {
+    flex-wrap: wrap;
+    // border: 2px solid red;
+    margin-top: 24px;
+
+    .image {
+      margin-bottom: 20px;
+      cursor: pointer;
+      // border: rgb(0, 195, 255) 1px solid;
+      padding: 10px;
+
+      figure {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        border: 4px solid rgba($color: #000000, $alpha: 0);
+        border-radius: 3px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .gray {
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.6);
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    .image-selected {
+      border: 4px solid $blue !important;
+    }
+  }
+  .d-none {
+    display: none;
+  }
+}
