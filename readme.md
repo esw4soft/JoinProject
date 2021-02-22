@@ -14,5 +14,5 @@ MySQL
 ##### 套件
 
 React skrollr  
-React Elastic Carousel
+React Elastic Carousel   
 Yup & Formik
