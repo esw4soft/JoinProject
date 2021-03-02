@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/JoinProject/static/css/main.7c28d534.chunk.css",
+    "main.js": "/JoinProject/static/js/main.84cb7f97.chunk.js",
+    "main.js.map": "/JoinProject/static/js/main.84cb7f97.chunk.js.map",
+    "runtime-main.js": "/JoinProject/static/js/runtime-main.3e7c613e.js",
+    "runtime-main.js.map": "/JoinProject/static/js/runtime-main.3e7c613e.js.map",
+    "static/css/2.a02d41db.chunk.css": "/JoinProject/static/css/2.a02d41db.chunk.css",
+    "static/js/2.4a342eb4.chunk.js": "/JoinProject/static/js/2.4a342eb4.chunk.js",
+    "static/js/2.4a342eb4.chunk.js.map": "/JoinProject/static/js/2.4a342eb4.chunk.js.map",
+    "static/js/3.4e74c335.chunk.js": "/JoinProject/static/js/3.4e74c335.chunk.js",
+    "static/js/3.4e74c335.chunk.js.map": "/JoinProject/static/js/3.4e74c335.chunk.js.map",
+    "index.html": "/JoinProject/index.html",
+    "static/css/2.a02d41db.chunk.css.map": "/JoinProject/static/css/2.a02d41db.chunk.css.map",
+    "static/css/main.7c28d534.chunk.css.map": "/JoinProject/static/css/main.7c28d534.chunk.css.map",
+    "static/js/2.4a342eb4.chunk.js.LICENSE.txt": "/JoinProject/static/js/2.4a342eb4.chunk.js.LICENSE.txt",
+    "static/media/confirmbutton.scss": "/JoinProject/static/media/TaipeiSansTCBeta-Regular.2dff6166.ttf",
+    "static/media/semantic.min.css": "/JoinProject/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/logo.6ce24c58.svg": "/JoinProject/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e7c613e.js",
+    "static/css/2.a02d41db.chunk.css",
+    "static/js/2.4a342eb4.chunk.js",
+    "static/css/main.7c28d534.chunk.css",
+    "static/js/main.84cb7f97.chunk.js"
+  ]
+}
